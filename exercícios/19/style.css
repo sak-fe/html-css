@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/*HMTL id -- CSS "#" (SÓ PODE UM ELEMENTO POR PÁGINA)
+HTML class -- CSS "." (PODE VÁRIOS)*/ 
+
+body{
+    background-color: rgb(76, 105, 64);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color:  rgb(36, 91, 42);
+
+}
+
+h1#principal{
+    text-align: center;
+    background-color: green;
+    color: white;
+
+}
+
+h2{
+    color: rgb(33, 73, 38);
+
+}
+
+.basico{
+    color: rgb(33, 73, 38);
+}
+
+.intermediario{
+   color: rgb(67, 73, 33);
+}
+
+.avancado{
+    color: rgb(73, 38, 33);
+}
+
+.destaque{
+    background-color: yellow;
+
+}
+
+
+
+
+
+
+
+
+
+

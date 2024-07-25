@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(125, 181, 181);
+}
+
+#principal{
+    background-color: rgb(70, 94, 100);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.inicio{
+    color: green;
+    font-style: italic;
+}
+
+.meio{
+    color: red;
+    font-style: italic;
+}
+
+
+.fim{
+    color: blue;
+    font-style: italic;
+}
+
+div > p{
+    display: none;
+}
+div:hover > p{
+    display: block;
+    color: rgb(0, 0, 0);
+    font: 16px normal Arial, Helvetica, sans-serif;
+}
+
+
+
+
+

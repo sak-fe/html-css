@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens dinâmica</h1>
+    <p>Fazendo a imagem ficar otimizada em qualquer tamanho de tela</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-media.png" type="image/png">
+        <img src="imagens/foto-grande.png" alt="imagem flexível">
+    </picture>
+    
+    <audio preload="auto" src="midia/800lives-everest-almond.mp3" autoplay controls></audio>
+    <br>
+    <audio preload="metadata" src="midia/800lives-everest-almond.mp3" autoplay controls>
+        <source src="midia/800lives-everest-almond.mp3" type="audio/mpeg">
+        <source src="midia/800lives-everest-almond.mp3" type="audio/ogg">
+        <source src="midia/800lives-everest-almond.mp3" type="audio/wav">
+        <p>Infezlizmente seu navegador não é compatível com o áudio</p>
+    </audio>
+    <p>Baixe o áudio <a href="midia/800lives-everest-almond.zip" target="_blank" type="external">aqui</a></p>
+
+
+
+</body>
+</html>
